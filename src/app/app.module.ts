@@ -13,6 +13,37 @@ import { WomenComponent } from './women/women.component';
 import { MensComponent } from './mens/mens.component';
 import { KidsComponent } from './kids/kids.component';
 import { AboutComponent } from './about/about.component';
+import { RouterModule, Routes } from '@angular/router';
+
+const appRoutes: Routes=[
+  {
+    path:"",component:HomeComponent
+  },
+  {
+    path:"login",component:LoginComponent
+  },
+  {
+    path:"collection",component:CollectionComponent
+  },
+  {
+    path:"specials",component:SpecialComponent
+  },
+  {
+    path:"womens",component:WomensComponent
+  },
+  {
+    path:"women",component:WomenComponent
+  },
+  {
+    path:"mens",component:MensComponent
+  },
+  {
+    path:"kids",component:KidsComponent
+  },
+  {
+    path:"about",component:AboutComponent
+  }
+]
 
 @NgModule({
   declarations: [
@@ -30,7 +61,8 @@ import { AboutComponent } from './about/about.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
