@@ -12,6 +12,7 @@ import { WomensComponent } from './womens/womens.component';
 import { WomenComponent } from './women/women.component';
 import { MensComponent } from './mens/mens.component';
 import { KidsComponent } from './kids/kids.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { KidsComponent } from './kids/kids.component';
     WomensComponent,
     WomenComponent,
     MensComponent,
-    KidsComponent
+    KidsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
