@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { CollectionComponent } from './collection/collection.component';
 import { SpecialComponent } from './special/special.component';
+import { WomensComponent } from './womens/womens.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SpecialComponent } from './special/special.component';
     HomeComponent,
     LoginComponent,
     CollectionComponent,
-    SpecialComponent
+    SpecialComponent,
+    WomensComponent
   ],
   imports: [
     BrowserModule,
