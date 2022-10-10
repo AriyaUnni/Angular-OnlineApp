@@ -11,6 +11,7 @@ import { SpecialComponent } from './special/special.component';
 import { WomensComponent } from './womens/womens.component';
 import { WomenComponent } from './women/women.component';
 import { MensComponent } from './mens/mens.component';
+import { KidsComponent } from './kids/kids.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MensComponent } from './mens/mens.component';
     SpecialComponent,
     WomensComponent,
     WomenComponent,
-    MensComponent
+    MensComponent,
+    KidsComponent
   ],
   imports: [
     BrowserModule,
