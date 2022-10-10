@@ -10,6 +10,7 @@ import { CollectionComponent } from './collection/collection.component';
 import { SpecialComponent } from './special/special.component';
 import { WomensComponent } from './womens/womens.component';
 import { WomenComponent } from './women/women.component';
+import { MensComponent } from './mens/mens.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { WomenComponent } from './women/women.component';
     CollectionComponent,
     SpecialComponent,
     WomensComponent,
-    WomenComponent
+    WomenComponent,
+    MensComponent
   ],
   imports: [
     BrowserModule,
