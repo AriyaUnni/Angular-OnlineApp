@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { CollectionComponent } from './collection/collection.component';
 import { SpecialComponent } from './special/special.component';
 import { WomensComponent } from './womens/womens.component';
+import { WomenComponent } from './women/women.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { WomensComponent } from './womens/womens.component';
     LoginComponent,
     CollectionComponent,
     SpecialComponent,
-    WomensComponent
+    WomensComponent,
+    WomenComponent
   ],
   imports: [
     BrowserModule,
